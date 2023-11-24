@@ -7,4 +7,4 @@ jobs:
     container: amazoncorretto:17-alpine
     steps:
       - uses: actions/checkout@v4
-      - run: mvnw clean install
+      - run: ./mvnw clean install
